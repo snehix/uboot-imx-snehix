@@ -1,0 +1,16 @@
+../common/image-android.c:50:13:append_kernel_cmdline	600	static
+../common/image-android.c:210:5:android_image_get_kernel	2080	static
+../common/image-android.c:294:5:android_image_get_kernel_v3	2072	static
+../common/image-android.c:361:5:android_image_check_header	0	static
+../common/image-android.c:519:13:android_image_get_dtb_img_addr	24	static
+../common/image-android.c:366:5:android_image_check_header_v3	8	static
+../common/image-android.c:373:7:android_image_get_end	16	static
+../common/image-android.c:396:7:android_image_get_kload	0	static
+../common/image-android.c:401:7:android_image_get_kcomp	0	static
+../common/image-android.c:413:5:android_image_get_ramdisk	16	static
+../common/image-android.c:432:5:android_image_get_second	16	static
+../common/image-android.c:470:6:android_image_get_dtbo	24	static
+../common/image-android.c:571:6:android_image_get_dtb_by_index	40	static
+../common/image-android.c:639:6:android_print_contents	32	static
+../common/image-android.c:729:6:android_image_print_dtb_contents	56	static
+../common/image-android.c:785:6:image_arm64	0	static

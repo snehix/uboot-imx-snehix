@@ -1,0 +1,4 @@
+../drivers/power/pmic/pfuze100.c:25:12:pfuze100_reg_count	0	static
+../drivers/power/pmic/pfuze100.c:30:12:pfuze100_write	16	static
+../drivers/power/pmic/pfuze100.c:41:12:pfuze100_read	16	static
+../drivers/power/pmic/pfuze100.c:51:12:pfuze100_bind	8	static

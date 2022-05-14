@@ -1,0 +1,2 @@
+../arch/arm/mach-imx/mx7/ddr.c:27:6:mx7_dram_cfg	16	static
+../arch/arm/mach-imx/mx7/ddr.c:111:14:imx_ddr_size	0	static

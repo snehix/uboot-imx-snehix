@@ -1,0 +1,9 @@
+../drivers/usb/host/ehci-mx6.c:471:5:ehci_usb_remove	16	static
+../drivers/usb/host/ehci-mx6.c:165:12:mx6_init_after_reset	24	static
+../drivers/usb/host/ehci-mx6.c:35:13:ehci_mx6_powerup_fixup	24	static
+../drivers/usb/host/ehci-mx6.c:391:12:ehci_usb_probe	48	static
+../drivers/usb/host/ehci-mx6.c:347:12:ehci_usb_bind	8	static
+../drivers/usb/host/ehci-mx6.c:66:12:board_usb_phy_mode	0	static
+../drivers/usb/host/ehci-mx6.c:81:12:board_ehci_power	0	static
+../drivers/usb/host/ehci-mx6.c:229:12:board_ehci_usb_phy_mode	0	static
+../drivers/usb/host/ehci-mx6.c:308:12:ehci_usb_ofdata_to_platdata	16	static

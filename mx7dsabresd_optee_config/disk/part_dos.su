@@ -1,0 +1,8 @@
+../disk/part_dos.c:66:12:test_block_type	16	static
+../disk/part_dos.c:136:13:print_partition_extended	64	dynamic
+../disk/part_dos.c:307:6:part_print_dos	16	static
+../disk/part_dos.c:104:12:part_test_dos	24	dynamic
+../disk/part_dos.c:207:12:part_get_info_extended	40	dynamic
+../disk/part_dos.c:313:5:part_get_info_dos	24	static
+../disk/part_dos.c:319:5:is_valid_dos_buf	8	static
+../disk/part_dos.c:324:5:write_mbr_partition	16	static

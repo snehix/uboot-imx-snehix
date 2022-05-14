@@ -1,0 +1,17 @@
+../common/stdio.c:43:13:nulldev_putc	0	static
+../common/stdio.c:48:13:nulldev_puts	0	static
+../common/stdio.c:53:12:nulldev_input	0	static
+../common/stdio.c:75:12:stdio_serial_tstc	0	static
+../common/stdio.c:70:12:stdio_serial_getc	0	static
+../common/stdio.c:65:13:stdio_serial_puts	0	static
+../common/stdio.c:60:13:stdio_serial_putc	0	static
+../common/stdio.c:117:19:stdio_get_list	0	static
+../common/stdio.c:175:19:stdio_get_by_name	24	static
+../common/stdio.c:208:19:stdio_clone	16	static
+../common/stdio.c:225:5:stdio_register_dev	8	static
+../common/stdio.c:239:5:stdio_register	0	static
+../common/stdio.c:248:5:stdio_deregister_dev	80	static
+../common/stdio.c:283:5:stdio_deregister	8	static
+../common/stdio.c:296:5:stdio_init_tables	0	static
+../common/stdio.c:316:5:stdio_add_devices	88	static
+../common/stdio.c:407:5:stdio_init	8	static

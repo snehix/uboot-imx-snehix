@@ -1,0 +1,8 @@
+../drivers/power/regulator/pfuze100.c:314:12:pfuze100_regulator_mode	24	static
+../drivers/power/regulator/pfuze100.c:555:12:pfuze100_regulator_set_mode	16	static
+../drivers/power/regulator/pfuze100.c:543:12:pfuze100_regulator_get_mode	16	static
+../drivers/power/regulator/pfuze100.c:526:12:pfuze100_regulator_get_enable	16	static
+../drivers/power/regulator/pfuze100.c:509:12:pfuze100_regulator_get_value	16	static
+../drivers/power/regulator/pfuze100.c:538:12:pfuze100_regulator_set_enable	32	static
+../drivers/power/regulator/pfuze100.c:521:12:pfuze100_regulator_set_value	16	static
+../drivers/power/regulator/pfuze100.c:260:12:pfuze100_regulator_probe	24	static

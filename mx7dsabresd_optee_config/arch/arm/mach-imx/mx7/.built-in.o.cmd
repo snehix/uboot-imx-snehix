@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-imx/mx7/built-in.o :=  arm-poky-linux-gnueabi-ld.bfd     -r -o arch/arm/mach-imx/mx7/built-in.o arch/arm/mach-imx/mx7/soc.o arch/arm/mach-imx/mx7/clock.o arch/arm/mach-imx/mx7/clock_slice.o arch/arm/mach-imx/mx7/ddr.o arch/arm/mach-imx/mx7/snvs.o arch/arm/mach-imx/mx7/psci-mx7.o arch/arm/mach-imx/mx7/psci-suspend.o 

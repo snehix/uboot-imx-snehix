@@ -1,0 +1,4 @@
+../drivers/fastboot/fb_fsl/fb_fsl_getvar.c:100:12:strcmp_l1	16	static
+../drivers/fastboot/fb_fsl/fb_fsl_getvar.c:123:7:get_serial	16	static
+../drivers/fastboot/fb_fsl/fb_fsl_getvar.c:162:12:get_single_var	64	static
+../drivers/fastboot/fb_fsl/fb_fsl_getvar.c:467:6:fastboot_getvar	752	static

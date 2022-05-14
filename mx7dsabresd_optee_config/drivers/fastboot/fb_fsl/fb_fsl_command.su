@@ -1,0 +1,16 @@
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:162:13:okay	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:212:13:upload	16	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:237:13:download	24	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:173:13:getvar	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:975:13:run_acmd	16	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:819:13:flash	8	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:184:13:reboot_bootloader	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:891:13:erase	8	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:946:13:run_ucmd	8	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:126:6:fastboot_run_bootmode	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:271:5:fastboot_data_remaining	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:293:6:fastboot_data_download	24	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:330:6:fastboot_data_complete	8	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:934:5:fastboot_set_reboot_flag	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:964:6:fastboot_acmd_complete	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_command.c:1123:5:fastboot_handle_command	32	static

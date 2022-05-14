@@ -1,0 +1,9 @@
+../arch/arm/mach-imx/mx7/soc.c:152:5:get_cpu_rev	0	static
+../arch/arm/mach-imx/mx7/soc.c:333:6:is_usb_boot	0	static
+../arch/arm/mach-imx/mx7/soc.c:341:5:arch_cpu_init	16	static
+../arch/arm/mach-imx/mx7/soc.c:381:5:arch_misc_init	0	static
+../arch/arm/mach-imx/mx7/soc.c:420:6:get_board_serial	0	static
+../arch/arm/mach-imx/mx7/soc.c:432:6:set_wdog_reset	0	static
+../arch/arm/mach-imx/mx7/soc.c:450:6:s_init	0	static
+../arch/arm/mach-imx/mx7/soc.c:462:6:reset_misc	0	static
+../arch/arm/mach-imx/mx7/soc.c:485:6:reset_cpu	0	static

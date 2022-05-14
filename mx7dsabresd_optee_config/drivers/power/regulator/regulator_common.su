@@ -1,0 +1,3 @@
+../drivers/power/regulator/regulator_common.c:11:5:regulator_common_ofdata_to_platdata	24	static
+../drivers/power/regulator/regulator_common.c:44:5:regulator_common_get_enable	0	static
+../drivers/power/regulator/regulator_common.c:54:5:regulator_common_set_enable	24	static

@@ -1,0 +1,14 @@
+../arch/arm/mach-imx/mx7/psci-mx7.c:150:15:imx_gpcv2_set_core_power	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:170:15:imx_enable_cpu_ca7	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:180:15:psci_arch_cpu_entry	8	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:187:14:psci_cpu_on	16	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:216:14:psci_cpu_off	8	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:237:15:psci_system_reset	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:250:15:psci_system_off	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:265:14:psci_version	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:270:14:psci_cpu_suspend	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:277:14:psci_affinity_info	16	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:302:14:psci_migrate_info_type	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:308:14:psci_features	0	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:548:15:imx_system_resume	40	static
+../arch/arm/mach-imx/mx7/psci-mx7.c:600:15:psci_system_suspend	16	static

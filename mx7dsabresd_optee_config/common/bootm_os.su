@@ -1,0 +1,7 @@
+../common/bootm_os.c:342:5:do_bootm_vxworks	56	static
+../common/bootm_os.c:379:12:do_bootm_qnxelf	40	static
+../common/bootm_os.c:21:12:do_bootm_standalone	16	static
+../common/bootm_os.c:596:13:arch_preboot_os	0	static
+../common/bootm_os.c:602:13:board_preboot_os	0	static
+../common/bootm_os.c:607:5:boot_selected_os	24	static
+../common/bootm_os.c:625:13:bootm_os_get_boot_func	0	static

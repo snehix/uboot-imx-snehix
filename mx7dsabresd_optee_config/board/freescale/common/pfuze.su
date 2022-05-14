@@ -1,0 +1,2 @@
+../board/freescale/common/pfuze.c:95:5:pfuze_mode_init	32	static
+../board/freescale/common/pfuze.c:133:17:pfuze_common_init	16	static

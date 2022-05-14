@@ -1,0 +1,3 @@
+../drivers/usb/gadget/udc/udc-uclass.c:15:5:usb_gadget_initialize	24	static
+../drivers/usb/gadget/udc/udc-uclass.c:36:5:usb_gadget_release	16	static
+../drivers/usb/gadget/udc/udc-uclass.c:52:5:usb_gadget_handle_interrupts	8	static

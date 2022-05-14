@@ -1,0 +1,9 @@
+../board/freescale/mx7dsabresd/mx7dsabresd.c:89:12:mx7sabre_rev.part.0	8	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:69:5:dram_init	0	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:128:5:get_board_rev	8	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:231:7:board_get_usable_ram_top	0	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:537:5:board_early_init_f	8	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:544:5:board_init	8	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:601:5:power_init_board	24	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:644:5:board_late_init	8	static
+../board/freescale/mx7dsabresd/mx7dsabresd.c:666:5:checkboard	8	static

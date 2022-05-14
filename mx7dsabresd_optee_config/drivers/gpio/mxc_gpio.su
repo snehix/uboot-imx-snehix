@@ -1,0 +1,8 @@
+../drivers/gpio/mxc_gpio.c:368:12:mxc_gpio_bind	0	static
+../drivers/gpio/mxc_gpio.c:300:12:mxc_gpio_set_value	16	static
+../drivers/gpio/mxc_gpio.c:292:12:mxc_gpio_get_value	8	static
+../drivers/gpio/mxc_gpio.c:266:12:mxc_gpio_direction_input	8	static
+../drivers/gpio/mxc_gpio.c:353:12:mxc_gpio_ofdata_to_platdata	16	static
+../drivers/gpio/mxc_gpio.c:329:12:mxc_gpio_probe	40	static
+../drivers/gpio/mxc_gpio.c:310:12:mxc_gpio_get_function	8	static
+../drivers/gpio/mxc_gpio.c:277:12:mxc_gpio_direction_output	16	static

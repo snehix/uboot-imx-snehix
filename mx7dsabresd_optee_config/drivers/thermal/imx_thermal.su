@@ -1,0 +1,3 @@
+../drivers/thermal/imx_thermal.c:136:12:read_cpu_temperature	16	static
+../drivers/thermal/imx_thermal.c:210:5:imx_thermal_get_temp	24	static
+../drivers/thermal/imx_thermal.c:234:12:imx_thermal_probe	24	static

@@ -1,0 +1,46 @@
+bootcmd=run findfdt;mmc dev ${mmcdev};mmc dev ${mmcdev}; if mmc rescan; then if run loadbootscript; then run bootscript; else if run loadimage; then run mmcboot; else run netboot; fi; fi; else run netboot; fi
+bootdelay=3
+baudrate=115200
+ethprime=eth0
+loadaddr=0x80800000
+m4image=m4_qspi.bin
+loadm4image=fatload mmc ${mmcdev}:${mmcpart} 0x7F8000 ${m4image}
+m4boot=run loadm4image; bootaux 0x7F8000
+mfgtool_args=setenv bootargs console=${console},${baudrate} rdinit=/linuxrc clk_ignore_unused 
+kboot=bootz 
+bootcmd_mfg=run mfgtool_args;if iminfo ${initrd_addr}; then if test ${tee} = yes; then bootm ${tee_addr} ${initrd_addr} ${fdt_addr}; else bootz ${loadaddr} ${initrd_addr} ${fdt_addr}; fi; else echo "Run fastboot ..."; fastboot 0; fi;
+initrd_addr=0x86800000
+initrd_high=0xffffffff
+emmc_dev=2
+sd_dev=0
+mtdparts=
+tee=yes
+dfu_alt_info=image raw 0 0x800000;u-boot raw 0 0x4000;bootimg part 0 1;rootfs part 0 2
+script=boot.scr
+image=zImage
+console=ttymxc0
+fdt_high=0xffffffff
+initrd_high=0xffffffff
+fdt_file=undefined
+fdt_addr=0x83000000
+tee_addr=0x84000000
+tee_file=uTee-7dsdb
+boot_fdt=try
+ip_dyn=yes
+splashimage=0x8c000000
+mmcdev=0
+mmcpart=1
+mmcroot=/dev/mmcblk0p2 rootwait rw
+mmcautodetect=yes
+mmcargs=setenv bootargs console=${console},${baudrate} root=${mmcroot}
+loadbootscript=fatload mmc ${mmcdev}:${mmcpart} ${loadaddr} ${script};
+bootscript=echo Running bootscript from mmc ...; source
+loadimage=fatload mmc ${mmcdev}:${mmcpart} ${loadaddr} ${image}
+loadfdt=fatload mmc ${mmcdev}:${mmcpart} ${fdt_addr} ${fdt_file}
+loadtee=fatload mmc ${mmcdev}:${mmcpart} ${tee_addr} ${tee_file}
+mmcboot=echo Booting from mmc ...; run mmcargs; if test ${tee} = yes; then run loadfdt; run loadtee; bootm ${tee_addr} - ${fdt_addr}; else if test ${boot_fdt} = yes || test ${boot_fdt} = try; then if run loadfdt; then bootz ${loadaddr} - ${fdt_addr}; else if test ${boot_fdt} = try; then bootz; else echo WARN: Cannot load the DT; fi; fi; else bootz; fi; fi;
+netargs=setenv bootargs console=${console},${baudrate} root=/dev/nfs ip=dhcp nfsroot=${serverip}:${nfsroot},v3,tcp
+netboot=echo Booting from net ...; run netargs; if test ${ip_dyn} = yes; then setenv get_cmd dhcp; else setenv get_cmd tftp; fi; ${get_cmd} ${image}; if test ${tee} = yes; then ${get_cmd} ${tee_addr} ${tee_file}; ${get_cmd} ${fdt_addr} ${fdt_file}; bootm ${tee_addr} - ${fdt_addr}; else if test ${boot_fdt} = yes || test ${boot_fdt} = try; then if ${get_cmd} ${fdt_addr} ${fdt_file}; then bootz ${loadaddr} - ${fdt_addr}; else if test ${boot_fdt} = try; then bootz; else echo WARN: Cannot load the DT; fi; fi; else bootz; fi; fi;
+findfdt=if test $fdt_file = undefined; then setenv fdt_file imx7d-sdb.dtb; fi;
+
+

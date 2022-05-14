@@ -1,0 +1,7 @@
+../drivers/crypto/fsl_caam.c:344:12:do_job	16	static
+../drivers/crypto/fsl_caam.c:778:12:jr_reset	8	static
+../drivers/crypto/fsl_caam.c:123:5:secmem_set_cmd_1	0	static
+../drivers/crypto/fsl_caam.c:144:5:caam_decap_blob	16	static
+../drivers/crypto/fsl_caam.c:183:5:caam_gen_blob	24	static
+../drivers/crypto/fsl_caam.c:218:5:caam_hwrng	16	static
+../drivers/crypto/fsl_caam.c:256:6:caam_open	40	static

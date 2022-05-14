@@ -1,0 +1,3 @@
+../arch/arm/mach-imx/imx_bootaux.c:80:5:arch_auxiliary_core_up	24	static
+../arch/arm/mach-imx/imx_bootaux.c:131:5:arch_auxiliary_core_check_up	0	static
+../arch/arm/mach-imx/imx_bootaux.c:160:12:do_bootaux	16	static
